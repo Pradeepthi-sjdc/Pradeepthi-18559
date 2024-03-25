@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+<style>
+    /* Centered section */
+    .centered-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vth;
+        background-color: blue; /* Blue background color */
+        color: white;
+    }
+    /* Survey form styles */
+    .survey-form {
+        padding: 20px;
+        border-radius: 10px;
+        background-color: white;
+        color: black;
+    }
+</style>
+</head>
+<body>
+
+<section class="centered-section">
+    <form class="survey-form">
+        <h2>Survey Form</h2>
+        <label for="name">Name</label><br>
+        <input type="text" id="name" name=""><br>
+        <label for="email">Email</label><br>
+        <input type="text" id="email" name=""><br><br>
+        <label for="DOB">DOB</label><br>
+        <input type="date" id="DOB" name="DOB"><br><br>
+        <label for="Gender">Gender</label><br>
+        <input type="radio" id="Gender" name="Gender">Male<br><br>
+        <input type="radio" id="Gender" name="Gender">Female<br><br>  
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">     
+    </form>
+</section>
+    
+</body>
+</html>
