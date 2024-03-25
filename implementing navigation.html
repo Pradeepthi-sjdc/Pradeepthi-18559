@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <ul id="navbar">
+        <li><a href="/tests">Tests</a></li>
+        <li><a href="/studyroom">Study Room</a></li>
+        <li><a href="/flashcards">Flashcards</a></li>
+        <li><a href="/library">Library</a></li>
+        <li><a href="/testimonials">Testimonials</a></li>
+    </ul>
+</body>
+</html>
+Create a CSS file named styles.css with the following code:
+css
+Edit
+Full Screen
+Copy code
+ul#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul#navbar li {
+    float:left;
+}
+
+ul#navbar li a {
+    display: block;
+    color: white;
+    font-weight:bold;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul#navbar li a:hover {
+    background-color: #111;
+}
